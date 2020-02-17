@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   width: 1500px;
   height: 1000px;
+  margin-top: 1%;
 }
 
 #navbar {
@@ -24,12 +25,6 @@ body {
   height: 400px;
   justify-content: space-evenly;
 }
-a:hover {
-  color: red;
-}
-.navtitles {
-  length: 100px;
-}
 
 #mainbody {
   display: flex;
@@ -37,10 +32,4 @@ a:hover {
   height: 400px;
   width: 90%;
   margin-left: 5%;
-}
-
-.scene {
-  width: 200px;
-  height: 200px;
-  perspective: 600px;
 }
